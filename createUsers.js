@@ -1,6 +1,7 @@
 const axios = require("axios");
 const users = require("./JSONfiles/testusers0.json");
 const token = require("./config.js");
+const writeJson = require("./common/writeJson.js");
 
 const createUsers = () => {
   users.forEach(user => {
@@ -10,13 +11,20 @@ const createUsers = () => {
         "urn:scim:schemas:extension:enterprise:1.0"
       ],
       userName:
-        user.FirstName.toLowerCase() + "_" + user.LastName.toLowerCase(),
+        user.FirstName.toLowerCase() +
+        "_" +
+        user.LastName.toLowerCase() +
+        Math.floor(Math.random() * 10),
       name: { familyName: user.FirstName, givenName: user.LastName },
       displayName: user.FirstName + " " + user.LastName,
-      emails: [{ value: user.EmailAddress, type: "work", primary: true }]
+      emails: [
+        {
+          value: user.EmailAddress + Math.floor(Math.random() * 1000),
+          type: "work",
+          primary: true
+        }
+      ]
     });
-
-    console.log(data);
 
     const config = {
       method: "post",
@@ -31,13 +39,14 @@ const createUsers = () => {
 
     axios(config)
       .then(function(response) {
-        const userId = JSON.stringify(response.data.id);
-        const email = JSON.stringify(response.data.emails[0].value);
-        console.log({
+        const userId = response.data.id;
+        const email = response.data.emails[0].value;
+        const toFile = JSON.stringify({
           UserId: userId,
           email: email,
           groupname: user.GroupName
         });
+        writeJson("userId", toFile);
       })
       .catch(function(error) {
         console.log(error);
