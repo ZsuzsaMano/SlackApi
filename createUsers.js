@@ -11,8 +11,7 @@ const createUsers = () => {
       method: "post",
       url: "https://api.slack.com/scim/v1/Users",
       headers: {
-        Authorization:
-          "Bearer "+token.botToken,,
+        Authorization: "Bearer " + token.botToken,
         "Content-Type": "application/json",
         Cookie: "b=68cdyyggh2sswgno3eq3se4em"
       },
@@ -23,7 +22,11 @@ const createUsers = () => {
       .then(function(response) {
         const userId = JSON.stringify(response.data.id);
         const email = JSON.stringify(response.data.emails[0].value);
-        console.log(userId, email);
+        console.log({
+          UserId: userId,
+          email: email,
+          groupname: user.GroupName
+        });
       })
       .catch(function(error) {
         console.log(error);
