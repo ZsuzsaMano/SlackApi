@@ -49,7 +49,7 @@ const createUsers = () => {
         writeJson("userId", toFile);
       })
       .catch(function(error) {
-        console.log(error);
+        console.log(error.message);
       });
   });
 };
