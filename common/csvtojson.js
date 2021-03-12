@@ -1,9 +1,9 @@
 const CSVToJSON = require("csvtojson");
 const writeJson = require("./writeJson");
 
-const csvToJson = (csvfile, filename) => {
+exports.default = (csvfile, filename) => {
   CSVToJSON()
-    .fromFile(`../CSVfiles/${csvfile}.csv`)
+    .fromFile(`./CSVfiles/${csvfile}.csv`)
     .then(items => {
       console.log(items);
       writeJson(filename, JSON.stringify(items));
