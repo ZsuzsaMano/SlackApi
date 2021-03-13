@@ -11,7 +11,7 @@ csvtojson("groups", "testgroups");
 
 const jsonLenght = groups.length;
 
-const groupArray = [];
+let groupArray = [];
 
 const createChannel = () => {
   groups.forEach(group => {
@@ -37,7 +37,7 @@ const createChannel = () => {
         if (groupArray.length === jsonLenght) {
           const toFile = JSON.stringify(groupArray);
 
-          writeJson(groupId, toFile);
+          writeJson("groupId", toFile);
         }
       })
       .catch(function(error) {
@@ -46,4 +46,4 @@ const createChannel = () => {
   });
 };
 
-//createChannel();
+createChannel();

@@ -7,6 +7,7 @@ const csvtojson = require("./common/csvtojson.js");
 csvtojson("users", "testusers");
 
 const createUsers = () => {
+  let userArray = [];
   users.forEach(user => {
     let data = JSON.stringify({
       schemas: [
@@ -44,17 +45,18 @@ const createUsers = () => {
       .then(function(response) {
         const userId = response.data.id;
         const email = response.data.emails[0].value;
-        const toFile = JSON.stringify({
+        userArray.push({
           UserId: userId,
           email: email,
           GroupName: user.GroupName
         });
+        const toFile = JSON.stringify(userArray);
         writeJson("userId", toFile);
       })
       .catch(function(error) {
-        console.log(error.message);
+        console.log(error);
       });
   });
 };
 
-//createUsers();
+createUsers();
