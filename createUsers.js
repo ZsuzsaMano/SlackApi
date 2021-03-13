@@ -44,7 +44,7 @@ const createUsers = () => {
         const toFile = JSON.stringify({
           UserId: userId,
           email: email,
-          groupname: user.GroupName
+          GroupName: user.GroupName
         });
         writeJson("userId", toFile);
       })
