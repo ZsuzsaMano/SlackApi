@@ -1,4 +1,3 @@
-const mergeData = require("./common/mergeJson.js");
 const userId = require("./JSONfiles/userId.json");
 const groupId = require("./JSONfiles/groupId.json");
 const writeJson = require("./common/writeJson.js");
