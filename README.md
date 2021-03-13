@@ -1,8 +1,8 @@
-## This is a script to invite big number of users to different slack channels based on 2 csv files (one with group names, other users + group names)
+## This is a script to invite big number of users to different slack channels based on 2 csv files (1: group names, 2: users + group names)
 
 it can be complished in 4 steps, what I will explain below. at each step you have to call from terminal <i>\$node \<function name\> </i>
 
-<b> before running scripts install packages! with <i> npm install</i> </b>
+<b>! before running scripts install packages with <i> npm install</i> ! </b>
 
 ---
 
