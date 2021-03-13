@@ -1,5 +1,5 @@
 const axios = require("axios");
-const users = require("./JSONfiles/testusers0.json");
+const users = require("./JSONfiles/testusers.json");
 const token = require("./config.js");
 const writeJson = require("./common/writeJson.js");
 const csvtojson = require("./common/csvtojson.js");
@@ -18,7 +18,7 @@ const createUsers = () => {
         user.FirstName.toLowerCase() +
         "_" +
         user.LastName.toLowerCase() +
-        Math.floor(Math.random() * 10),
+        Math.floor(Math.random() * 100),
       name: { familyName: user.FirstName, givenName: user.LastName },
       displayName: user.FirstName + " " + user.LastName,
       emails: [
@@ -27,7 +27,8 @@ const createUsers = () => {
           type: "work",
           primary: true
         }
-      ]
+      ],
+      password: "Cub$winCub$win!!"
     });
 
     const config = {
