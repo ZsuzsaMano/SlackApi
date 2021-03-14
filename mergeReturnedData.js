@@ -11,4 +11,4 @@ groupId.map(x => {
 });
 
 console.log(groupId);
-writeJson("mergeData", JSON.stringify(groupId));
+writeJson("mergedData", JSON.stringify(groupId));
