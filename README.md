@@ -29,6 +29,10 @@ true creates private channels</br>
 
 https://api.slack.com/methods/conversations.create
 
+#### request / minute
+
+20+
+
 ### 2.,createUsers
 
 to create the required channels from groups.cvs file (contains first/last name, email, group name)
@@ -44,6 +48,10 @@ userId.json containing user email, id and group name
 #### slack documentation:</br>
 
 https://api.slack.com/admins/scim#post-users
+
+#### request / minute
+
+180
 
 ### 3.,mergeReturnedData
 
@@ -68,3 +76,7 @@ invite users to their groups, so they can see it when they enter the workspace
 #### slack documentation:</br>
 
 https://api.slack.com/methods/conversations.invite
+
+#### request / minute
+
+50+
