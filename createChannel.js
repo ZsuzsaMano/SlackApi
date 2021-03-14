@@ -7,8 +7,6 @@ const groups = require("./JSONfiles/testgroups.json");
 const writeJson = require("./common/writeJson.js");
 const csvtojson = require("./common/csvtojson.js");
 
-csvtojson("groups", "testgroups");
-
 const jsonLenght = groups.length;
 
 let groupArray = [];
@@ -50,4 +48,4 @@ const createChannel = () => {
   });
 };
 
-createChannel();
+csvtojson("groups", "testgroups", createChannel);

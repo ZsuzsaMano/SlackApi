@@ -1,15 +1,1 @@
-[
-  { "groupId": "C01R6QLGKQT", "GroupName": "UD004T15", "users": [] },
-  { "groupId": "C01RK7N4FLZ", "GroupName": "UD008T22", "users": [] },
-  { "groupId": "C01R6JKL0FL", "GroupName": "UD013T29", "users": [] },
-  { "groupId": "C01RWDHMDCY", "GroupName": "UD006T19", "users": [] },
-  { "groupId": "C01QZR6KSBG", "GroupName": "UD009T23", "users": [] },
-  { "groupId": "C01RK7N4FUZ", "GroupName": "UD002T07", "users": [] },
-  { "groupId": "C01R6QLGLEP", "GroupName": "UD011T27", "users": [] },
-  { "groupId": "C01R6QLGLE7", "GroupName": "UD014T30", "users": [] },
-  { "groupId": "C01QRRA8A95", "GroupName": "UD007T20", "users": [] },
-  { "groupId": "C01R6JKL0NN", "GroupName": "UD005T17", "users": [] },
-  { "groupId": "C01RCPJ18KW", "GroupName": "UD003T12", "users": [] },
-  { "groupId": "C01R6QLGLN7", "GroupName": "UD012T28", "users": [] },
-  { "groupId": "C01RK7N4GF3", "GroupName": "UD010T24", "users": [] }
-]
+[{"groupId":"C01RCTGAD7E","GroupName":"UD013T29","users":[]},{"groupId":"C01QZV4UW3Y","GroupName":"UD007T20","users":[]},{"groupId":"C01RCTGADRA","GroupName":"UD008T22","users":[]},{"groupId":"C01R3L0U4NR","GroupName":"UD009T23","users":[]},{"groupId":"C01RWHG0WHE","GroupName":"UD010T24","users":[]},{"groupId":"C01RCTGADJQ","GroupName":"UD006T19","users":[]},{"groupId":"C01QZV4UWPQ","GroupName":"UD011T27","users":[]},{"groupId":"C01QZV4UWR4","GroupName":"UD002T07","users":[]},{"groupId":"C01RWHG0WJC","GroupName":"UD014T30","users":[]},{"groupId":"C01QRV8HFN3","GroupName":"UD004T15","users":[]},{"groupId":"C01R6NHUXNW","GroupName":"UD012T28","users":[]},{"groupId":"C01RKBLD917","GroupName":"UD003T12","users":[]},{"groupId":"C01R6UJRGP5","GroupName":"UD005T17","users":[]}]

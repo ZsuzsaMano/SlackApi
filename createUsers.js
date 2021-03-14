@@ -4,8 +4,6 @@ const token = require("./config.js");
 const writeJson = require("./common/writeJson.js");
 const csvtojson = require("./common/csvtojson.js");
 
-csvtojson("users", "testusers");
-
 const createUsers = () => {
   let userArray = [];
   users.forEach(user => {
@@ -60,4 +58,4 @@ const createUsers = () => {
   });
 };
 
-createUsers();
+csvtojson("users", "testusers", createUsers);
