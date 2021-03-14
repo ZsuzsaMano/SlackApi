@@ -8,7 +8,7 @@ const inviteUsers = () => {
     const data = qs.stringify({
       token: token.userToken,
       channel: mData.groupId,
-      users: mData.UserId
+      users: mData.users.join(",")
     });
     const config = {
       method: "post",
