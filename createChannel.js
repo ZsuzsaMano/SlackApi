@@ -33,7 +33,11 @@ const createChannel = () => {
     axios(config)
       .then(function(response) {
         const groupId = response.data.channel.id;
-        groupArray.push({ groupId: groupId, GroupName: group.group });
+        groupArray.push({
+          groupId: groupId,
+          GroupName: group.group,
+          users: []
+        });
         if (groupArray.length === jsonLenght) {
           const toFile = JSON.stringify(groupArray);
 
