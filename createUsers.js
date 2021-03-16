@@ -47,7 +47,8 @@ const createUsers = () => {
         userArray.push({
           UserId: userId,
           email: email,
-          GroupName: user.GroupName
+          GroupName: user.GroupName,
+          Topic: user.Topic
         });
         const toFile = JSON.stringify(userArray);
         writeJson("userId", toFile);

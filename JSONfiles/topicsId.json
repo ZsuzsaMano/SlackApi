@@ -1,0 +1,131 @@
+[
+  {
+    "groupId": "C01RBV8G52P",
+    "GroupName": "2_01_antidiskriminierung_soziale_gerechtigkeit",
+    "users": []
+  },
+  {
+    "groupId": "C01RC07KKV1",
+    "GroupName": "2_02_digitale_öffentlichkeit_politische_bildung",
+    "users": []
+  },
+  {
+    "groupId": "C01RQC3SQTT",
+    "GroupName": "2_03_engagement_im_alter",
+    "users": []
+  },
+  {
+    "groupId": "C01S1HLM5S4",
+    "GroupName": "2_04_neue_formen_demokratische_partizipation",
+    "users": []
+  },
+  {
+    "groupId": "C01RBPHUYMQ",
+    "GroupName": "2_05_neue_formen_digitales_engagement",
+    "users": []
+  },
+  {
+    "groupId": "C01R8ME1JE9",
+    "GroupName": "2_06_chancengerechtigkeit_bildung",
+    "users": []
+  },
+  {
+    "groupId": "C01RQC6VBR7",
+    "GroupName": "2_07_familiengerechtes_arbeiten_kinderbetreuung",
+    "users": []
+  },
+  {
+    "groupId": "C01RHUX6MEY",
+    "GroupName": "2_08_lebenslanges_lernen",
+    "users": []
+  },
+  { "groupId": "C01RQC87VSM", "GroupName": "2_09_neue_arbeit", "users": [] },
+  {
+    "groupId": "C01RHUYERFW",
+    "GroupName": "2_10_schule_lernen_digitalisierte_welt",
+    "users": []
+  },
+  {
+    "groupId": "C01RBPP0YH0",
+    "GroupName": "2_11_digitaler_verbraucherschutz",
+    "users": []
+  },
+  {
+    "groupId": "C01R518RETG",
+    "GroupName": "2_12_innovative_bürgerservices",
+    "users": []
+  },
+  {
+    "groupId": "C01R519DJQ6",
+    "GroupName": "2_13_kommunikation_staat_bürgerinnen",
+    "users": []
+  },
+  {
+    "groupId": "C01R51A4A6A",
+    "GroupName": "2_14_transparenz_staat_bürgerinnen",
+    "users": []
+  },
+  {
+    "groupId": "C01QX1H5VLP",
+    "GroupName": "2_15_einsamkeit_im_alter",
+    "users": []
+  },
+  { "groupId": "C01QX1HNB63", "GroupName": "2_16_impfen", "users": [] },
+  {
+    "groupId": "C01S1HYTLMN",
+    "GroupName": "2_17_mentale_gesundheit",
+    "users": []
+  },
+  { "groupId": "C01R51FFFAS", "GroupName": "2_18_pflege", "users": [] },
+  { "groupId": "C01R8MS8ELD", "GroupName": "2_19_vorsorge", "users": [] },
+  {
+    "groupId": "C01R51H14K0",
+    "GroupName": "2_20_öffentliches_gesundheitswesen",
+    "users": []
+  },
+  {
+    "groupId": "C01RBPYGNV8",
+    "GroupName": "2_21_kreislaufwirtschaft_ressourceneinsatz",
+    "users": []
+  },
+  {
+    "groupId": "C01RHV9Q2EQ",
+    "GroupName": "2_22_landwirtschaft_ernährung",
+    "users": []
+  },
+  {
+    "groupId": "C01RQCM09LH",
+    "GroupName": "2_23_mobilität_verkehr",
+    "users": []
+  },
+  {
+    "groupId": "C01RC0SQU1H",
+    "GroupName": "2_24_private_haushalte_konsum_lebensstile",
+    "users": []
+  },
+  {
+    "groupId": "C01R51LME2J",
+    "GroupName": "2_25_altersgerechte_stadt_dorfgestaltung",
+    "users": []
+  },
+  {
+    "groupId": "C01RHVCN7PW",
+    "GroupName": "2_26_kunst_kultur_zugang_teilhabe",
+    "users": []
+  },
+  {
+    "groupId": "C01RC0UTAQK",
+    "GroupName": "2_27_lokales_engagement",
+    "users": []
+  },
+  {
+    "groupId": "C01S1J6QG56",
+    "GroupName": "2_28_zukunftsfähiger_einzelhandel",
+    "users": []
+  },
+  {
+    "groupId": "C01QX1STWK1",
+    "GroupName": "2_29_zusammenleben_stadt_land",
+    "users": []
+  }
+]

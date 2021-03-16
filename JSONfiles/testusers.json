@@ -1,1 +1,37 @@
-[{"FirstName":"Lucas","LastName":"Dupias","EmailAddress":"lucas@codeacademyberlin.com2","GroupName":"CodeTest0","Topic":"test"},{"FirstName":"Annika","LastName":"Gaab","EmailAddress":"webdev@gmail.com","GroupName":"UD001T10","Topic":"Chancengerechtigkeit in der Bildung"},{"FirstName":"Isabella","LastName":"Busch","EmailAddress":"jaksch@n3xtcoder.org","GroupName":"UD001T10","Topic":"Chancengerechtigkeit in der Bildung"},{"FirstName":"Rebekka","LastName":"Tavakoli","EmailAddress":"test@test.de","GroupName":"UD001T10","Topic":"test"},{"FirstName":"Erdal","LastName":"Tekin","EmailAddress":"test@test.de","GroupName":"UD001T10","Topic":"Chancengerechtigkeit in der Bildung"}]
+[
+  {
+    "FirstName": "Lucasw",
+    "LastName": "Dupias",
+    "EmailAddress": "lucas@codeacademyberlin.com2w",
+    "GroupName": "CodeTest0",
+    "Topic": "2_01_antidiskriminierung_soziale_gerechtigkeit"
+  },
+  {
+    "FirstName": "Annika",
+    "LastName": "Gaab",
+    "EmailAddress": "webdev@gmail.com",
+    "GroupName": "UD001T10",
+    "Topic": "Chancengerechtigkeit in der Bildung"
+  },
+  {
+    "FirstName": "Isabella",
+    "LastName": "Busch",
+    "EmailAddress": "jaksch@n3xtcoder.org",
+    "GroupName": "UD001T10",
+    "Topic": "Chancengerechtigkeit in der Bildung"
+  },
+  {
+    "FirstName": "Rebekka",
+    "LastName": "Tavakoli",
+    "EmailAddress": "test@test.de",
+    "GroupName": "UD001T10",
+    "Topic": "test"
+  },
+  {
+    "FirstName": "Erdal",
+    "LastName": "Tekin",
+    "EmailAddress": "test@test.de",
+    "GroupName": "UD001T10",
+    "Topic": "Chancengerechtigkeit in der Bildung"
+  }
+]
