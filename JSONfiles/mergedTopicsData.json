@@ -2,7 +2,7 @@
   {
     "topicId": "C01RBV8G52P",
     "Topic": "2_01_antidiskriminierung_soziale_gerechtigkeit",
-    "users": []
+    "users": ["U01QZC1U1GF"]
   },
   {
     "topicId": "C01RC07KKV1",
@@ -71,11 +71,7 @@
     "users": []
   },
   { "topicId": "C01QX1HNB63", "Topic": "2_16_impfen", "users": [] },
-  {
-    "topicId": "C01S1HYTLMN",
-    "Topic": "2_17_mentale_gesundheit",
-    "users": []
-  },
+  { "topicId": "C01S1HYTLMN", "Topic": "2_17_mentale_gesundheit", "users": [] },
   { "topicId": "C01R51FFFAS", "Topic": "2_18_pflege", "users": [] },
   { "topicId": "C01R8MS8ELD", "Topic": "2_19_vorsorge", "users": [] },
   {
@@ -93,11 +89,7 @@
     "Topic": "2_22_landwirtschaft_ernährung",
     "users": []
   },
-  {
-    "topicId": "C01RQCM09LH",
-    "Topic": "2_23_mobilität_verkehr",
-    "users": []
-  },
+  { "topicId": "C01RQCM09LH", "Topic": "2_23_mobilität_verkehr", "users": [] },
   {
     "topicId": "C01RC0SQU1H",
     "Topic": "2_24_private_haushalte_konsum_lebensstile",
@@ -113,11 +105,7 @@
     "Topic": "2_26_kunst_kultur_zugang_teilhabe",
     "users": []
   },
-  {
-    "topicId": "C01RC0UTAQK",
-    "Topic": "2_27_lokales_engagement",
-    "users": []
-  },
+  { "topicId": "C01RC0UTAQK", "Topic": "2_27_lokales_engagement", "users": [] },
   {
     "topicId": "C01S1J6QG56",
     "Topic": "2_28_zukunftsfähiger_einzelhandel",
