@@ -22,8 +22,5 @@ topicsId.map(x => {
   });
 });
 
-console.log(groupId);
 console.log(topicsId);
-
-writeJson("mergedData", JSON.stringify(groupId));
 writeJson("mergedTopicsData", JSON.stringify(topicsId));
