@@ -1,1 +1,27 @@
-[{"UserId":"U01QZV5TLNS","email":"test@test.de494","GroupName":"UD001T10"},{"UserId":"U01RWHGV18Q","email":"webdev@gmail.com227","GroupName":"UD001T10"},{"UserId":"U01R6UKQ7AP","email":"jaksch@n3xtcoder.org773","GroupName":"UD001T10"},{"UserId":"U01R6UKQ78T","email":"test@test.de859","GroupName":"UD001T10"},{"UserId":"U01R6UKQ7UK","email":"manoaway@gmail.com958","GroupName":"UD001T10"}]
+[
+  {
+    "UserId": "U01QZV5TLNS",
+    "email": "test@test.de494",
+    "GroupName": "UD001T10"
+  },
+  {
+    "UserId": "U01RWHGV18Q",
+    "email": "webdev@gmail.com227",
+    "GroupName": "UD001T10"
+  },
+  {
+    "UserId": "U01R6UKQ7AP",
+    "email": "jaksch@n3xtcoder.org773",
+    "GroupName": "UD001T10"
+  },
+  {
+    "UserId": "U01R6UKQ78T",
+    "email": "test@test.de859",
+    "GroupName": "UD001T10"
+  },
+  {
+    "UserId": "U01R6UKQ7UK",
+    "email": "manoaway@gmail.com958",
+    "GroupName": "UD001T10"
+  }
+]
