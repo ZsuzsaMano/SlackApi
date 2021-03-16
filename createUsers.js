@@ -25,8 +25,7 @@ const createUsers = () => {
           type: "work",
           primary: true
         }
-      ],
-      password: "Cub$winCub$win!!"
+      ]
     });
 
     const config = {
