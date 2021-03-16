@@ -2,7 +2,6 @@ const axios = require("axios");
 const users = require("./JSONfiles/testusers.json");
 const token = require("./config.js");
 const writeJson = require("./common/writeJson.js");
-const csvtojson = require("./common/csvtojson.js");
 
 const createUsers = () => {
   let userArray = [];
@@ -67,4 +66,4 @@ const createUsers = () => {
   });
 };
 
-csvtojson("users", "testusers", createUsers);
+createUsers();

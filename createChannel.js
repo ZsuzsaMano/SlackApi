@@ -5,17 +5,17 @@ const fs = require("fs");
 const token = require("./config.js");
 const groups = require("./JSONfiles/testgroups.json");
 const writeJson = require("./common/writeJson.js");
-const csvtojson = require("./common/csvtojson.js");
 
 const jsonLenght = groups.length;
 
 let groupArray = [];
 
 const createChannel = () => {
+  let groupErrorArray = [];
   groups.forEach(group => {
     const data = qs.stringify({
       token: token.userToken,
-      name: group.group.toLowerCase() + Math.floor(Math.random() * 1000),
+      name: group.group.toLowerCase(),
       is_private: "false"
     });
     const config = {
@@ -36,16 +36,19 @@ const createChannel = () => {
           GroupName: group.group,
           users: []
         });
-        if (groupArray.length === jsonLenght) {
-          const toFile = JSON.stringify(groupArray);
-
-          writeJson("groupId", toFile);
-        }
+        const toFile = JSON.stringify(groupArray);
+        writeJson("groupId", toFile);
       })
       .catch(function(error) {
         console.log(error);
+        groupErrorArray.push({
+          error: error.message,
+          GroupName: group.group
+        });
+        const toErrorFile = JSON.stringify(groupErrorArray);
+        writeJson("groupError", toErrorFile);
       });
   });
 };
 
-csvtojson("groups", "testgroups", createChannel);
+createChannel();

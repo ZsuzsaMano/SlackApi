@@ -1,14 +1,28 @@
 ## This is a script to invite big number of users to different slack channels based on 2 csv files (1: group names, 2: users + group names)
 
-it can be complished in 4 steps, what I will explain below. at each step you have to call from terminal <i>\$node \<file name\> </i>
+it can be complished in 5 steps, what I will explain below. at each step you have to call from terminal <i>\$node \<file name\> </i>
 
 <b>! before running scripts install packages with <i> npm install</i> ! </b>
 
 ---
 
+### 0.,convetFiles
+
+create from groups.cvs file testgroups.json file (contains group names)
+create from users.cvs file testusers.json file (contains user names, emails...)
+
+#### call from terminal:
+
+<i> node convertFiles.js </i>
+
+#### returns:
+
+testgroups.json
+tetsusers.json
+
 ### 1.,createChannel
 
-to create the required channels from groups.cvs file (contains group names)
+to create the required channels from testgroups.json file
 
 #### call from terminal:
 
@@ -35,7 +49,7 @@ https://api.slack.com/methods/conversations.create
 
 ### 2.,createUsers
 
-to create the required channels from groups.cvs file (contains first/last name, email, group name)
+to create the required users from testusers.json file (contains first/last name, email, group name)
 
 #### call from terminal:
 
