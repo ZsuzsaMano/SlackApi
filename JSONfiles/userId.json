@@ -1,1 +1,32 @@
-[{"UserId":"U01QZC1U1GF","email":"lucas@codeacademyberlin.com2w","GroupName":"CodeTest0","Topic":"2_01_antidiskriminierung_soziale_gerechtigkeit"}]
+[
+  {
+    "UserId": "U01R174LAKH",
+    "email": "kugoth@n3xtcoder.org",
+    "GroupName": "UD004T15test0",
+    "Topic": "2_04_neue_formen_demokratische_partizipation"
+  },
+  {
+    "UserId": "U01RCTHKR6H",
+    "email": "stegemann@n3xtcoder.org",
+    "GroupName": "UD002T07test0",
+    "Topic": "2_01_antidiskriminierung_soziale_gerechtigkeit"
+  },
+  {
+    "UserId": "U01R174LB8X",
+    "email": "florian.jaksch@gmail.com",
+    "GroupName": "UD002T07test0",
+    "Topic": "2_01_antidiskriminierung_soziale_gerechtigkeit"
+  },
+  {
+    "UserId": "U01RN59E9AQ",
+    "email": "fgebhard@projecttogether.org",
+    "GroupName": "UD007T20test0",
+    "Topic": "2_04_neue_formen_demokratische_partizipation"
+  },
+  {
+    "UserId": "U01R174LCB1",
+    "email": "jballesteros@projecttogether.org",
+    "GroupName": "UD004T15test0",
+    "Topic": "2_04_neue_formen_demokratische_partizipation"
+  }
+]

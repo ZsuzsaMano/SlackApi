@@ -1,37 +1,42 @@
 [
   {
-    "FirstName": "Lucasw",
-    "LastName": "Dupias",
-    "EmailAddress": "lucas@codeacademyberlin.com2w",
-    "GroupName": "CodeTest0",
-    "Topic": "2_01_antidiskriminierung_soziale_gerechtigkeit"
+    "FirstName": "Florian",
+    "LastName": "Jaksch",
+    "EmailAddress": "florian.jaksch@gmail.com",
+    "GroupName": "UD002T07test0",
+    "Topic": "2_01_antidiskriminierung_soziale_gerechtigkeit",
+    "Topic ID": "C01RBV8G52P"
   },
   {
-    "FirstName": "Annika",
-    "LastName": "Gaab",
-    "EmailAddress": "webdev@gmail.com",
-    "GroupName": "UD001T10",
-    "Topic": "Chancengerechtigkeit in der Bildung"
+    "FirstName": "Simon",
+    "LastName": "Stegemann",
+    "EmailAddress": "stegemann@n3xtcoder.org",
+    "GroupName": "UD002T07test",
+    "Topic": "2_01_antidiskriminierung_soziale_gerechtigkeit",
+    "Topic ID": "C01RBV8G52P"
   },
   {
-    "FirstName": "Isabella",
-    "LastName": "Busch",
-    "EmailAddress": "jaksch@n3xtcoder.org",
-    "GroupName": "UD001T10",
-    "Topic": "Chancengerechtigkeit in der Bildung"
+    "FirstName": "Julian",
+    "LastName": "Kugoth",
+    "EmailAddress": "kugoth@n3xtcoder.org",
+    "GroupName": "UD004T15test0",
+    "Topic": "2_04_neue_formen_demokratische_partizipation",
+    "Topic ID": "C01S1HLM5S4"
   },
   {
-    "FirstName": "Rebekka",
-    "LastName": "Tavakoli",
-    "EmailAddress": "test@test.de",
-    "GroupName": "UD001T10",
-    "Topic": "test"
+    "FirstName": "Johanna",
+    "LastName": "Ballesteros",
+    "EmailAddress": "jballesteros@projecttogether.org",
+    "GroupName": "UD004T15test",
+    "Topic": "2_04_neue_formen_demokratische_partizipation",
+    "Topic ID": "C01S1HLM5S4"
   },
   {
-    "FirstName": "Erdal",
-    "LastName": "Tekin",
-    "EmailAddress": "test@test.de",
-    "GroupName": "UD001T10",
-    "Topic": "Chancengerechtigkeit in der Bildung"
+    "FirstName": "Franziska",
+    "LastName": "Gebhard",
+    "EmailAddress": "fgebhard@projecttogether.org",
+    "GroupName": "UD007T20test0",
+    "Topic": "2_04_neue_formen_demokratische_partizipation",
+    "Topic ID": "C01S1HLM5S4"
   }
 ]
