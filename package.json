@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "csvtojson": "^2.0.10",
-    "qs": "^6.9.6"
+    "qs": "^6.9.6",
+    "slugify": "^1.4.7"
   }
 }

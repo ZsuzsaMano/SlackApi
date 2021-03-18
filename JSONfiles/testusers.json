@@ -1,1 +1,37 @@
-[{"FirstName":"Aga","LastName":"Lyszko","EmailAddress":"Aga@n3xtcoder.org","GroupName":"UD002A09test29","Topic":"test_01_antidiskriminierung_soziale_gerechtigkeit"},{"FirstName":"Nasi","LastName":"Puya","EmailAddress":"nasi@n3xtcoder.org","GroupName":"UD002A09test29","Topic":"test_01_antidiskriminierung_soziale_gerechtigkeit"},{"FirstName":"Amelie","LastName":"Anders","EmailAddress":"amelie@n3xtcoder.org","GroupName":"UD004T56test29","Topic":"test_04_neue_formen_demokratische_partizipation"},{"FirstName":"Leo","LastName":"Nima","EmailAddress":"nima@n3xtcoder.org","GroupName":"UD004T56test2","Topic":"test_04_neue_formen_demokratische_partizipation"},{"FirstName":"Lena","LastName":"Serdarusic","EmailAddress":"lena@n3xtcoder.org","GroupName":"UD007T25test2","Topic":"test_04_neue_formen_demokratische_partizipation"}]
+[
+  {
+    "FirstName": "Aga",
+    "LastName": "Lyszko",
+    "EmailAddress": "Aga@n3xtcoder.orgd",
+    "GroupName": "UD002A09test29",
+    "Topic": "test_01_antidiskriminierung_soziale_gerechtigkeit"
+  },
+  {
+    "FirstName": "Nasi",
+    "LastName": "Puya",
+    "EmailAddress": "nasi@n3xtcoder.orgd",
+    "GroupName": "UD002A09test29",
+    "Topic": "test_01_antidiskriminierung_soziale_gerechtigkeit"
+  },
+  {
+    "FirstName": "Amelie",
+    "LastName": "Anders",
+    "EmailAddress": "amelie@n3xtcoder.orgd",
+    "GroupName": "UD004T56test29",
+    "Topic": "test_04_neue_formen_demokratische_partizipation"
+  },
+  {
+    "FirstName": "Leo",
+    "LastName": "Nima",
+    "EmailAddress": "nima@n3xtcoder.orgd",
+    "GroupName": "UD004T56test2",
+    "Topic": "test_04_neue_formen_demokratische_partizipation"
+  },
+  {
+    "FirstName": "Lena",
+    "LastName": "Serdarusic",
+    "EmailAddress": "lena@n3xtcoder.orgd",
+    "GroupName": "UD007T25test2",
+    "Topic": "test_04_neue_formen_demokratische_partizipation"
+  }
+]
