@@ -77,7 +77,7 @@ const createUsers = () => {
         console.log("error not all fields filled", user);
       }
       console.log("timeout ");
-    }, 340 * i);
+    }, 1200 * i);
   });
 };
 
