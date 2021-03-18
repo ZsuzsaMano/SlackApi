@@ -26,7 +26,7 @@ const createUsers = () => {
             "_" +
             user.LastName.toLowerCase() +
             Math.floor(Math.random() * 100),
-          name: { familyName: user.FirstName, givenName: user.LastName },
+          name: { familyName: user.LastName, givenName: user.FirstName },
           displayName: user.FirstName + " " + user.LastName,
           emails: [
             {
