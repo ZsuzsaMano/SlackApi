@@ -1,1 +1,32 @@
-[{"email":"Aga@n3xtcoder.orgd","GroupName":"UD002A09test29","Topic":"test_01_antidiskriminierung_soziale_gerechtigkeit"},{"email":"nasi@n3xtcoder.orgd","GroupName":"UD002A09test29","Topic":"test_01_antidiskriminierung_soziale_gerechtigkeit"},{"email":"amelie@n3xtcoder.orgd","GroupName":"UD004T56test29","Topic":"test_04_neue_formen_demokratische_partizipation"},{"email":"nima@n3xtcoder.orgd","GroupName":"UD004T56test2","Topic":"test_04_neue_formen_demokratische_partizipation"},{"email":"lena@n3xtcoder.orgd","GroupName":"UD007T25test2","Topic":"test_04_neue_formen_demokratische_partizipation"}]
+[
+  {
+    "UserId": "U01R174LAKH",
+    "email": "kugoth@n3xtcoder.org",
+    "GroupName": "UD004T15test0",
+    "Topic": "Lebenslanges Lernen – Aus- Fort- und Weiterbildung"
+  },
+  {
+    "UserId": "U01RCTHKR6H",
+    "email": "stegemann@n3xtcoder.org",
+    "GroupName": "UD002T07test0",
+    "Topic": "Lebenslanges Lernen – Aus- Fort- und Weiterbildung"
+  },
+  {
+    "UserId": "U01R174LB8X",
+    "email": "florian.jaksch@gmail.com",
+    "GroupName": "UD002T07test0",
+    "Topic": "Chancengerechtigkeit in der Bildung"
+  },
+  {
+    "UserId": "U01RN59E9AQ",
+    "email": "fgebhard@projecttogether.org",
+    "GroupName": "UD007T20test0",
+    "Topic": "Chancengerechtigkeit in der Bildung"
+  },
+  {
+    "UserId": "U01R174LCB1",
+    "email": "jballesteros@projecttogether.org",
+    "GroupName": "UD004T15test0",
+    "Topic": "2_04_neue_formen_demokratische_partizipation"
+  }
+]

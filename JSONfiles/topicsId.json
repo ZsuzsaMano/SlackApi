@@ -1,32 +1,32 @@
 [
   {
-    "groupId": "C01RJG3CMDL",
+    "topicId": "C01RJG3CMDL",
     "Topic": "Antidiskriminierung und Soziale Gerechtigkeit",
     "users": []
   },
   {
-    "groupId": "C01RXEFPHJ8",
+    "topicId": "C01RXEFPHJ8",
     "Topic": "Digitale Öffentlichkeit und politische Bildung",
     "users": []
   },
-  { "groupId": "C01RAGB6DGX", "Topic": "Engagement im Alter", "users": [] },
+  { "topicId": "C01RAGB6DGX", "Topic": "Engagement im Alter", "users": [] },
   {
-    "groupId": "C01SF3TDZK2",
+    "topicId": "C01SF3TDZK2",
     "Topic": "Neue Formen der demokratischen Partizipation",
     "users": []
   },
   {
-    "groupId": "C01SF3TUE80",
+    "topicId": "C01SF3TUE80",
     "Topic": "Chancengerechtigkeit in der Bildung",
     "users": []
   },
   {
-    "groupId": "C01SF3U6S56",
+    "topicId": "C01SF3U6S56",
     "Topic": "Familiengerechtes Arbeiten und Kinderbetreuung",
     "users": []
   },
   {
-    "groupId": "C01RN7BFD6H",
+    "topicId": "C01RN7BFD6H",
     "Topic": "Lebenslanges Lernen – Aus- Fort- und Weiterbildung",
     "users": []
   }

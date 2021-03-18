@@ -1,1 +1,5 @@
-[{"groupId":"C01S2NJSREV","GroupName":"UD002A09test29dssvz","users":[]},{"groupId":"C01S2NK5BR7","GroupName":"UD004T56test29dssgz","users":[]},{"groupId":"C01RHAYAZE2","GroupName":"UD007T25test29dssuh","users":[]}]
+[
+  { "groupId": "C01S2NJSREV", "GroupName": "UD002A09test29dssvz", "users": [] },
+  { "groupId": "C01S2NK5BR7", "GroupName": "UD004T56test29dssgz", "users": [] },
+  { "groupId": "C01RHAYAZE2", "GroupName": "UD007T25test29dssuh", "users": [] }
+]
