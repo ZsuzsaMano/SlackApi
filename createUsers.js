@@ -66,9 +66,11 @@ const createUsers = () => {
             console.log(error);
             userErrorArray.push({
               error: error.message,
-              user: user.FirstName + " " + user.LastName,
-              email: user.EmailAddress,
-              GroupName: user.GroupName
+              FirstName: user.FirstName,
+              Lastname: user.LastName,
+              EmailAddress: user.EmailAddress,
+              GroupName: user.GroupName,
+              Topic: user.Topic
             });
             const toErrorFile = JSON.stringify(userErrorArray);
             writeJson("userError", toErrorFile);
