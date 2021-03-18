@@ -15,7 +15,7 @@ const createChannel = () => {
   groups.forEach(group => {
     const data = qs.stringify({
       token: token.userToken,
-      name: group.group.toLowerCase(),
+      name: group.Groups.toLowerCase(),
       is_private: "false"
     });
     const config = {
@@ -33,7 +33,7 @@ const createChannel = () => {
         const groupId = response.data.channel.id;
         groupArray.push({
           groupId: groupId,
-          GroupName: group.group,
+          GroupName: group.Groups,
           users: []
         });
         const toFile = JSON.stringify(groupArray);
@@ -43,7 +43,7 @@ const createChannel = () => {
         console.log(error);
         groupErrorArray.push({
           error: error.message,
-          GroupName: group.group
+          GroupName: group.Groups
         });
         const toErrorFile = JSON.stringify(groupErrorArray);
         writeJson("groupError", toErrorFile);
