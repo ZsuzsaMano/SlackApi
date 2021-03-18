@@ -10,6 +10,39 @@ const jsonLenght = groups.length;
 
 let groupArray = [];
 
+const getChannel = async (channelName) => {
+
+  const data = qs.stringify({
+    token: token.botToken,
+    limit: 1000
+  });
+  const config = {
+    method: "post",
+    url: "https://slack.com/api/conversations.list",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+      Cookie: "b=y8jkoei1qsl1fwndue4t31uk"
+    },
+    data: data
+  };
+
+  const response = await axios(config)
+
+  // console.log(response)
+
+  if (response.data.error) {
+    console.log("error", response.data)
+    return
+  }
+
+  const {channels} = response.data
+  console.log("getChannel got response", channels)
+  return channels.filter( i => {
+    console.log(i.name, channelName.toLowerCase())
+    return i.name === channelName.toLowerCase()
+  })[0]
+}
+
 const createChannel = () => {
   let groupErrorArray = [];
   groups.forEach((group, i) => {
@@ -30,8 +63,19 @@ const createChannel = () => {
       };
 
       axios(config)
-        .then(function(response) {
-          const groupId = response.data.channel.id;
+        .then(async (response) => {
+          let groupId
+          if (response.data.error) {
+            console.log(`Error creating ${group.Groups}`, response.data.error)
+            const channel = await getChannel(group.Groups)
+
+            console.log("got channel", channel)
+
+            groupId = channel.id
+          } else {
+            groupId = response.data.channel.id;
+          }
+
           groupArray.push({
             groupId: groupId,
             GroupName: group.Groups,
