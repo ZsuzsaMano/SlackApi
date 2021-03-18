@@ -63,15 +63,28 @@ const createUsers = () => {
             writeJson("userId", toFile);
           })
           .catch(function(error) {
-            console.log(error);
-            userErrorArray.push({
-              error: error.message,
-              user: user.FirstName + " " + user.LastName,
-              email: user.EmailAddress,
-              GroupName: user.GroupName
-            });
-            const toErrorFile = JSON.stringify(userErrorArray);
-            writeJson("userError", toErrorFile);
+            if (error.message === "Request failed with status code 409") {
+              const id = getUser(user.EmailAddress);
+              console.log(id);
+              userArray.push({
+                UserId: id,
+                email: user.EmailAddress,
+                GroupName: user.GroupName,
+                Topic: user.Topic
+              });
+              const toFile = JSON.stringify(userArray);
+              writeJson("userId", toFile);
+            } else {
+              userErrorArray.push({
+                error: error.message,
+                user: user.FirstName + " " + user.LastName,
+                email: user.EmailAddress,
+                GroupName: user.GroupName
+              });
+
+              const toErrorFile = JSON.stringify(userErrorArray);
+              writeJson("userError", toErrorFile);
+            }
           });
       } else {
         console.log("error not all fields filled", user);
