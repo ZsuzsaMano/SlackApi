@@ -2,7 +2,7 @@ const axios = require("axios");
 const qs = require("qs");
 const token = require("./config.js");
 
-const getUser = email => {
+module.exports = email => {
   const data = qs.stringify({
     token: token.botToken,
     email: email

@@ -2,6 +2,7 @@ const axios = require("axios");
 const users = require("./JSONfiles/testusers.json");
 const token = require("./config.js");
 const writeJson = require("./common/writeJson.js");
+const getUser = require("./getUser.js");
 
 const createUsers = () => {
   let userArray = [];
