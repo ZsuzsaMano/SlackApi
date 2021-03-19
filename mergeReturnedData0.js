@@ -67,7 +67,7 @@ defaultGroupId.map(x => {
   });
 });
 
-defaultGroupId.map(x => x.users.slice(0, 900));
+const slicedGroupId = defaultGroupId.map(x => x.users.slice(0, 2));
 
 // const allIds = userId.map(x => {
 //     x.users.push(y.UserId);
@@ -76,4 +76,4 @@ defaultGroupId.map(x => x.users.slice(0, 900));
 //
 // console.log(defaultGroupId);
 // console.log(groups)
-writeJson("mergedDefaultData", JSON.stringify(defaultGroupId));
+writeJson("mergedDefaultData", JSON.stringify(slicedGroupId));
